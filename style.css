@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-bar{
+    background-color: aqua;
+    height: 5rem;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.nav-line{
+    height: 4rem;
+    background-color: green;
+}
+
+.content{
+    background-color: blue;
+    height: 4rem;
+}
