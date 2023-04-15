@@ -1,3 +1,6 @@
+
+/************** Description ****************/
+
 .one{
     background-color: rgb(9, 217, 147);
     color: white;
@@ -42,8 +45,6 @@
     margin-inline: 0.5rem;
 }
 
-
-
 .line-write{
     display: flex;
     flex-direction: row;
@@ -58,6 +59,7 @@
     margin-inline:0.2rem
 }
 
+/************** Portfolio ****************/
 
 .text-dark{
     color: black;
@@ -70,9 +72,40 @@
 
 
 .contents{
-
     /* background-color: aqua; */
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
 }
+
+/*********** hover-immagini **************/
+
+.bg-plus{
+    padding-top: 19%;
+    padding-inline: 20%;
+    padding-bottom: 19%;
+    background-color: aquamarine;
+    border-radius: 100%;
+    position: absolute;
+    margin: 0;
+    border: 0;
+    opacity: 0;
+}
+
+.bg-plus:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.plus-hover{
+    opacity: 1;
+}
+
+/****************************************/
+
 
 img{
     border-radius: 20px;
@@ -90,6 +123,7 @@ img{
     padding-inline: 12rem;
 }
 
+/******************Footer*****************/
 
 footer{
     background-color: black;
