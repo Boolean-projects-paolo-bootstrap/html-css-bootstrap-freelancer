@@ -1,16 +1,32 @@
 
-/************** Description ****************/
+/************** Navbar ****************/
 
-.one{
-    background-color: rgb(9, 217, 147);
-    color: white;
-    
+.navbar-text{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.head{
+    position: fixed;
+    width: 100%;
+    z-index: 90;
 }
 
 .container{
     margin: auto;
 }
 
+/************** Description ****************/
+
+.one{
+    background-color: rgb(9, 217, 147);
+    color: white; 
+}
+
+.container-sm{
+    padding-top: 3rem;
+}
 
 .text-center{
     font-weight: 600;
